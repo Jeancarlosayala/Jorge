@@ -12,5 +12,5 @@ form.addEventListener('submit', function(event){
         }
     );
     localStorage.setItem('user', JSON.stringify(users));
-    location.href ="./views/maestro.html"
+    location.href ="./views/home_maestro.html"
 });

@@ -1,0 +1,33 @@
+[
+    {
+        "abreviacion": "Etica",
+        "materia": "Etica Sociedad y Profesion",
+        "grupo": 37
+    },
+
+    {
+        "abreviacion":"CTL.MOD",
+        "materia":"Control Moderno",
+        "grupo": 13
+    },
+    {
+        "abreviacion":"SIST",
+        "materia":"Dis. de Sist. Electronicos de Potencia",
+        "grupo": 8
+    },
+    {
+        "abreviacion":"Inter. I/O HOM-MAQ",
+        "materia":"Interfaces I/O Hombre_Maquina",
+        "grupo": 8
+    },
+    {
+        "abreviacion": "INT ART RED NEU",
+        "materia": "Int.Artificial y Redes Neuronales",
+        "grupo": 5
+    },
+    {
+        "abreviacion":"MICROC",
+        "materia":"Microcontroladores",
+        "grupo": 1
+    }
+]

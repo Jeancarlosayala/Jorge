@@ -12,5 +12,5 @@ form.addEventListener('submit', function(event){
         }
     );
     localStorage.setItem('user', JSON.stringify(users));
-    location.href ="./views/admin.html"
+    location.href ="./views/home_admin.html"
 });

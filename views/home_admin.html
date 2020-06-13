@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recordatorios</title>
+    <title>Admin</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="">Maestro</a>
+        <a class="navbar-brand" href="./home_admin.html">Admin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,44 +21,56 @@
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
 
-
-      <div class="row mx-auto ">
-        <div class="col col-md-3 mt-3">
-            <div class="card">
-                <div class="card-header">
-                    <h5 class="card-title"><a href="home.html"><span><i class="fas fa-arrow-left"></i></span></a> Enviar recordatorios</h5>
-                </div>
-                <div class="card-body">
-                    <form id="formulario">
-                        <div class="form-group">
-                            <input class="form-control" type="text" id="recordatorio">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-block btn-success">Enviar <span><i class="fas fa-paper-plane"></i></span></button>
-                        </div>
-                    </form>
-                </div>                
+    <div class="row mx-auto justify-content-center mt-3 text-center">
+      <div class="col col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <a href="./asignar_horario.html">
+                    <h6><span><i class="fas fa-book-open"></i></span> Horarios</h6>
+                </a>
             </div>
-          </div>
-          <div class="col col-md-6 mt-3">
-              <div class="card">
-                  <div class="card-header">
-                      <h5 class="card-title">Recordatorios Enviados</h5>
-                  </div>
-                  <div class="card-body">
-                    <div id="recordatorios">
-                        
-                    </div>
-                  </div>
-              </div>
-          </div>
+        </div>
       </div>
 
-      
+      <div class="col col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <a href="./accesos.html">
+                    <h6><span><i class="fas fa-users"></i></span> Roles</h6>
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <a href="./materia.html">
+                    <h6><span><i class="fas fa-calendar-alt"></i></span> Grupos</h6>
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <a href="./materia.html">
+                    <h6><span><i class="fas fa-sticky-note"></i></span> Materia</h6>
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
     <script src="../js/user.js"></script>
-    <script src="../js/app.js"></script>
     <script src="https://kit.fontawesome.com/2a4ada2490.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

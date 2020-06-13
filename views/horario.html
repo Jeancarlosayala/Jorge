@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./home.html">Alumnos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <div id="usernav"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="close"><i class="fas fa-sign-out-alt"></i></a>
+            </li>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div class="row mx-auto justify-content-center mt-4">
+        <div class="col col-md-10">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title text-center">Horario</h5>
+                </div>
+                <div class="card-body table-responsive">
+                    
+                    <table class="table" id="materias">
+                        <thead class="text-center">
+                            <tr>
+                                <th>Hora</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sabado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="res" class="text-center">
+                            <tr>
+                                <td>1:40 pm a <br> 2:30 pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#SIST">F-01 / LB <br> SIST <br> 605</a></td>
+                            </tr>
+                            <tr>
+                                <td>2:30 pm a <br> 3:20 pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#SIST">F-01 / LB <br> SIST <br> 605</a></td>
+                            </tr>
+                            <tr>
+                                <td>3:20 pm a <br> 4:10 pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#MICROC">F-01 / LB <br> *MICROC <br> 606</a></td>
+                            </tr>
+                            <tr>
+                                <td>5:00 pm a <br> 5:50 pm</td>
+                                <td><a href="" data-toggle="modal" data-target="#INTART">F-01 / CO <br> INT ART RED NEW <br> 005</a></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#INTART">F-01 / CO <br> INT ART RED NEW <br> 005</a></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#INTART">F-01 / CO <br> INT ART RED NEW <br> 005</a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5:50 pm a <br> 6:40 pm</td>
+                                <td><a href="" data-toggle="modal" data-target="#INTER">F-01 / CO <br> INTER. I/O HOM-MAQ <br> 008</a></td>
+                                <td><a href="" data-toggle="modal" data-target="#CTL">F-01 / LB <br> CTL. MOD. <br> 013</a></td>
+                                <td><a href="" data-toggle="modal" data-target="#INTER">F-01 / CO <br> INTER. I/O HOM-MAQ <br> 008</a></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#INTER">F-01 / CO <br> INTER. I/O HOM-MAQ <br> 008</a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6:40 pm a <br> 7:30 pm</td>
+                                <td><a href="" data-toggle="modal" data-target="#SIST">F-01 / CO <br> SIST <br> 008</a></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#SIST">F-01 / CO <br> SIST <br> 008</a></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#SIST">F-01 / CO <br> SIST <br> 008</a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>7:30 pm a <br> 8:20 pm</td>
+                                <td><a href="" data-toggle="modal" data-target="#ETICA">F-01 / CO <br> ETICA <br> 037</a></td>
+                                <td><a href="" data-toggle="modal" data-target="#MICROC">F-01 / CO <br> *MICROC <br> 001</a></td>
+                                <td><a href="" data-toggle="modal" data-target="#ETICA">F-01 / CO <br> ETICA <br> 037</a></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#ETICA">F-01 / CO <br> ETICA <br> 037</a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8:20 pm a <br> 9:10 pm</td>
+                                <td><a href="" data-toggle="modal" data-target="#CTL">F-01 / CO <br> CTL. MOD. <br> 013</a></td>
+                                <td><a href="" data-toggle="modal" data-target="#MICROC">F-01 / CO <br> *MICROC <br> 001</a></td>
+                                <td><a href="" data-toggle="modal" data-target="#CTL">F-01 / CO <br> CTL. MOD. <br> 013</a></td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#CTL">F-01 / CO <br> CTL. MOD. <br> 013</a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9:10 pm a <br> 10:00 pm</td>
+                                <td></td>
+                                <td><a href="" data-toggle="modal" data-target="#MICROC">F-01 / CO <br> *MICROC <br> 001</a></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="INTART" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="INTARTITLE">Int.Artificial y Redes Neuronales</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Materia tipo: Presencial</li>
+                    <li>Dias:</li>
+                    <ul>
+                        <li>Lunes</li>
+                        <li>Miercoles</li>
+                        <li>Viernes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="INTER" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="INTERITLE">Interfaces I/O Hombre_Maquina</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Materia tipo: Presencial</li>
+                    <li>Dias:</li>
+                    <ul>
+                        <li>Lunes</li>
+                        <li>Miercoles</li>
+                        <li>Viernes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="CTL" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="CTLITLE">Control Moderno</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Materia tipo: Presencial</li>
+                    <li>Dias:</li>
+                    <ul>
+                        <li>Lunes</li>
+                        <li>Martes</li>
+                        <li>Miercoles</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="SIST" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SISTITLE">Dis. de Sist.Electronicos de Potencia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Materia tipo: Presencial</li>
+                    <li>Dias:</li>
+                    <ul>
+                        <li>Lunes</li>
+                        <li>Miercoles</li>
+                        <li>Viernes</li>
+                        <li>Sabado</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ETICA" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ETICAITLE">Etica Sociedad y Profesion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Materia tipo: Presencial</li>
+                    <li>Dias:</li>
+                    <ul>
+                        <li>Lunes</li>
+                        <li>Miercoles</li>
+                        <li>Viernes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="CTL" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="CTLITLE">Control Moderno</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Materia tipo: Presencial</li>
+                    <li>Dias:</li>
+                    <ul>
+                        <li>Lunes</li>
+                        <li>Martes</li>
+                        <li>Miercoles</li>
+                        <li>Viernes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="MICROC" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="MICROCITLE">Microcontroladores</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Materia tipo: Semipresencial</li>
+                    <li>Semana del 15 al 19 en linea</li>
+                    <li>Dias:</li>
+                    <ul>
+                        <li>Martes</li>
+                        <li>Sabado</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/user.js"></script>
+    <script src="https://kit.fontawesome.com/2a4ada2490.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

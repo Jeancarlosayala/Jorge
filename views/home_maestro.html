@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./home_maestro.html">Maestro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <div id="usernav"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="close"><i class="fas fa-sign-out-alt"></i></a>
+            </li>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="row mx-auto justify-content-center mt-3 text-center">
+        <div class="col col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <a href="./materia.html">
+                        <h6><span><i class="fas fa-book-open"></i></span> Materia</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--<div class="col col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <a href="">
+                        <h6><span><i class="fas fa-clipboard"></i></span> Faltas</h6>
+                    </a>
+                </div>
+            </div>
+        </div>-->
+        <div class="col col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <a href="./alumnos.html">
+                        <h6><span><i class="fas fa-users"></i></span> Alumnos</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <a href="" data-toggle="modal" data-target="#foro">
+                        <h6><span><i class="fas fa-comments"></i></span> Foro</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <a href=""  data-toggle="modal" data-target="#chat">
+                        <h6><span><i class="fas fa-comment-dots"></i></span> Chat</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <a href="./enviar_recordatorios.html">
+                        <h6><span><i class="fas fa-sticky-note"></i></span> Asignacion</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div class="modal fade" id="chat" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="MICROCITLE">Chat</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-21by9">
+                        <iframe src="./chat.html" class="embed-responsive-item" frameborder="0"></iframe>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="modal fade" id="foro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="MICROCITLE">Chat</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-21by9">
+                        <iframe src="./foro.html" class="embed-responsive-item" frameborder="0"></iframe>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+    <script src="../js/user.js"></script>
+    <script src="https://kit.fontawesome.com/2a4ada2490.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
