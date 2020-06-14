@@ -1,11 +1,13 @@
 const formulario = document.querySelector('#formulario');
 const recordatorios = document.querySelector('#recordatorios');
+const descripcion = document.querySelector('#descripcion');
 
 let arrayRecordatorios = [];
 
 const CrearItem = (actividad) =>{
     let item = {
         actividad: actividad,
+        descripcion: descripcion,
         estado: false
     }
 
